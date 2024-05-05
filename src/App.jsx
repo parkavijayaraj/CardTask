@@ -45,9 +45,9 @@ const App = () => {
         return (
           <div>
              <div key={index}>
-              <div class="container" style={{background:"blue"}}>
-                <div class="row">
-                  <div>
+              <div class="container container px-4 px-lg-5  " style={{background:"blue"}}>
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-2 justify-content-center">
+                  <div className="col mb-3 mt-5">
                     <div class="card h-100">
                         <div class="card-body">
                           <h5 class="card-title text-muted text-uppercase text-center">
